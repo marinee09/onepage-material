@@ -50,4 +50,6 @@ Seule l'intégration du formulaire est demandée (pas de traitement serveur).
 Vous rendrez un repo github contenant tous les fichiers du projet.
 N’hésitez pas à rendre un travail incomplet même si vous avez eu l’un ou l’autre blocage !
 
-Documentation officielle : https://github.com/Dogfalo/materialize
+# Ressource
+
+https://github.com/Dogfalo/materialize
