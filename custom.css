@@ -1,0 +1,150 @@
+.fullscreen {
+    padding-top: 13%; 
+    width: 100%;
+    background-color: #212121;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(33, 33, 33, 1)), url("sources/cover.jpg");
+    background-size: cover;
+    color: white;
+    position: relative;
+    top: -64px; 
+    padding-left: 5%;
+}
+
+
+
+#phone {
+    position: relative;
+    top: 6px;
+    width: 30%;
+}
+#phone2 {
+    width: 40%;
+    margin-left: 30%;
+    padding-bottom: 10%;
+}
+
+#phone3 {
+   width: 90%;
+   margin-left: 5%;
+}
+
+#phone4 {
+    width: 70%;
+    margin-left: 15%;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0) !important;
+    box-shadow: none !important;
+}
+
+#dl {
+    color: black;
+    border-radius: 20px;
+}
+#dl2 {
+    color: yellow;
+    background-color: transparent;
+    border-radius: 20px;
+    border: solid 1px yellow;
+}
+
+
+.brand-logo {
+    color: rgba(0, 0, 0, 0, 0,1) !important;
+    padding: 0px 20px !important;
+}
+
+.hero-title {
+    margin-top: 7%;
+    padding: 0px 20px;
+  }
+  
+.btn-large {
+    background-image: url('sources/download_android.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 26%;
+}
+
+#large2 {
+    background-image: url('sources/download_ios.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 12%;
+}
+
+.benefices {
+    background-color: #212121;
+    color: white;
+    margin-top: -7%;
+}
+ .work {
+     padding-left: 8%;
+     padding-top: 10%;
+     background-color: #212121;
+     color: white;
+     margin-top: -2%;
+     padding-bottom: 5%;
+ }
+.Features {
+    padding-top: 5%;
+    background-color: #212121;
+    color: white;
+    padding-bottom: 10%;
+}
+
+h5, h6, hr {
+    /* color: #f0de12; */
+    color: #f3d912;
+}
+
+h1 {
+    color: white;
+}
+hr {
+    width: 90%;
+}
+.text {
+    margin-top: 5%;
+}
+
+p {
+    color: grey;
+}
+
+.Reviews {
+    background-color: #212121;
+    margin-top: -4%;
+    text-align: center;
+    padding-bottom: 8%;
+}
+
+.Download {
+    background-color: yellow;
+    padding-top: 7%;
+    margin-bottom: 5%;
+}
+
+.footer {
+    padding-left: 5%;
+    margin-top: -5%;
+    background-color: #424242;
+    padding-bottom: 1%;
+    padding-top: 2%;
+}
+
+#input {
+    background-color: white;
+    border: solid 1px white;
+    width: 40%;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    margin-right: 2%;
+}
+
+.log {
+    margin-top: 5%;
+    color: white;
+    margin-left: 10%;
+}
