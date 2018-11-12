@@ -214,15 +214,11 @@ p {
        font-size: 1.5em;
        text-align: center;
    }
-   /* #large {
-    display: inline;
-    font-size: 100%;
-    } */
 
-   #large2 {
-        display: inline;
-        font-size: 100%;   
+   #large, #large2, #large3, #large4 {
+    display: inline;
     }
+
   
      #phone {
         margin-left: 30%;
@@ -242,4 +238,8 @@ p {
     .Download h2 {
         font-size:1.8em;
     }
+    #input {
+        width: 100%;
+    }
+ 
 }
