@@ -1,3 +1,7 @@
+html {
+    background-color: #212121;
+}
+
 .fullscreen {
     padding-top: 13%; 
     width: 100%;
@@ -61,18 +65,37 @@ nav {
   }
   
 .btn-large {
+
+}
+#large {
     background-image: url('sources/download_android.png');
     background-size: cover;
-    background-repeat: no-repeat;
-    width: 26%;
+    width: 25%;
+
 }
 
 #large2 {
     background-image: url('sources/download_ios.png');
     background-size: cover;
-    background-repeat: no-repeat;
+    width: 25%;
     margin-left: 12%;
+    /* display: inline; */
 }
+#large3 {
+    background-image: url('sources/download_android.png');
+    background-size: cover;
+    width: 15%;
+    margin-left: 45%;
+    margin-top: -20%;
+}
+#large4 {
+    background-image: url('sources/download_ios.png');
+    background-size: cover;
+   width: 15%;
+    margin-left: 5%;
+    margin-top: -20%;
+}
+
 
 .benefices {
     background-color: #212121;
@@ -95,7 +118,6 @@ nav {
 }
 
 h5, h6, hr {
-    /* color: #f0de12; */
     color: #f3d912;
 }
 
@@ -127,6 +149,7 @@ p {
 }
 
 .footer {
+    background-color: #212121;
     padding-left: 5%;
     margin-top: -5%;
     background-color: #424242;
@@ -148,4 +171,75 @@ p {
     margin-top: 5%;
     color: white;
     margin-left: 10%;
+}
+
+
+/* Ecran Telephone */
+@media (max-width: 640px) {
+    .benefices h1 {
+        font-size: 1.5em;
+        margin-left: 12%;
+    }
+    .benefices {
+        margin-bottom: 20%;
+    }
+    .nav-wrapper {
+    opacity: 1;
+    display: none;
+    }
+
+    #nav-mobile {
+        display: none;
+    }
+
+    .fullscreen {
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .Features h1 {
+        text-align: center;
+        font-size:2.5em;
+    }
+ 
+    .responsive-img {
+       margin-left: 15%;
+   }
+ 
+   .hero-title h1 {
+    font-size: 2.5em;
+    text-align: center;
+   }
+   .hero-title h4 {
+       font-size: 1.5em;
+       text-align: center;
+   }
+   /* #large {
+    display: inline;
+    font-size: 100%;
+    } */
+
+   #large2 {
+        display: inline;
+        font-size: 100%;   
+    }
+  
+     #phone {
+        margin-left: 30%;
+    } 
+ 
+  
+    #tel1 {
+            background-image: url('sources/iphone_cover_dark.png');
+            min-width: 5px;
+        }
+    section~h1 {
+        font-size: 1.em;
+    }
+    .work h1 {
+        font-size: 1.8em;
+    }
+    .Download h2 {
+        font-size:1.8em;
+    }
 }
