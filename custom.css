@@ -51,6 +51,8 @@ nav {
     background-color: transparent;
     border-radius: 20px;
     border: solid 1px yellow;
+    width: 50%;
+    
 }
 
 
@@ -63,10 +65,7 @@ nav {
     margin-top: 7%;
     padding: 0px 20px;
   }
-  
-.btn-large {
 
-}
 #large {
     background-image: url('sources/download_android.png');
     background-size: cover;
@@ -160,7 +159,7 @@ p {
 #input {
     background-color: white;
     border: solid 1px white;
-    width: 40%;
+    width: 50%;
     border-radius: 20px;
     margin-bottom: 3%;
     margin-right: 2%;
